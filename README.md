@@ -1,5 +1,48 @@
-## <b>Project Page</b>
+## 📄 Paper Summary: *Knowledge Distillation Cross Domain Diffusion Model: A Generative AI Approach for Defect Pattern Segmentation* ([rawdatalibrary.net][1])
+
 [Paper](https://ieeexplore.ieee.org/document/10702557) | [Project Page]() | [Vedio]() | [Code]()
+
+**🎯 Problem & Motivation**
+
+* Semiconductor defect detection often suffers from a lack of pixel-level annotations, making precise segmentation difficult and expensive.
+
+**🔍 Proposed Methods**
+
+1. **ICDDM (Implicit Cross-Domain Diffusion Model)**
+
+   * A weakly supervised image-space diffusion model that learns the joint distribution of defect and clean circuit images.
+   * Utilizes denoising score matching through a Markov-chain diffusion process, enabling translation between domains without pixel-level supervision.
+
+2. **CDLDM (Cross-Domain Latent Diffusion Model)**
+
+   * Extends ICDDM by moving diffusion from high-dimensional image space to lower-dimensional latent space via a VAE encoder-decoder.
+   * Reduces computational cost while preserving semantic translation between defect and circuit domains.
+
+3. **KDCDDM (Knowledge Distillation Cross-Domain Diffusion Model)**
+
+   * Uses CDLDM as a teacher and trains a GAN-style student to mimic it.
+   * Dramatically accelerates inference by distilling the multi-step diffusion into a faster generative model, while maintaining performance.
+
+**⭐ Key Contributions**
+
+* Introduces a **weakly supervised diffusion-based framework** for unsupervised-like defect segmentation.
+* Demonstrates **latent-space diffusion** that reduces computation and memory while retaining translation fidelity.
+* Proposes a **distillation pathway** (KDCDDM) that achieves high efficiency with minimal loss in quality.
+
+**✅ Impact**
+
+* Provides a robust pipeline for semiconductor defect segmentation and data augmentation, with inference speed suitable for industrial settings.
+
+---
+
+This aligns exactly with your GitHub repo: modules for ICDDM, CDLDM, KDCDDM; VAE and UNet implementations; training and inference scripts; and distillation tools. If you'd like, I can help align benchmarks or extract evaluation results from the paper into your README or training logs.
+
+[1]: https://www.rawdatalibrary.net/ArticleDetails/1562889/knowledge-distillation-cross-domain-diffusion-model-a-generative-ai-approach-for-defect-pattern-segmentation?utm_source=chatgpt.com "Knowledge Distillation Cross Domain Diffusion Model: A Generative ..."
+
+
+
+
+
 
 ## Chatbot
 Please click [here](https://kdcddm-chatbot.vercel.app/) to enter the chatbot. If you have any questions regarding the KDCDDM paper we've proposed, feel free to ask any questions.
