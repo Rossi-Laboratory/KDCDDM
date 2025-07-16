@@ -1,4 +1,4 @@
-## 📄 Paper Summary: *Knowledge Distillation Cross Domain Diffusion Model: A Generative AI Approach for Defect Pattern Segmentation* ([rawdatalibrary.net][1])
+## 📄 Paper Summary: *Knowledge Distillation Cross Domain Diffusion Model: A Generative AI Approach for Defect Pattern Segmentation*
 
 [Paper](https://ieeexplore.ieee.org/document/10702557) | [Project Page]() | [Vedio]() | [Code]()
 
@@ -36,8 +36,6 @@
 ---
 
 This aligns exactly with your GitHub repo: modules for ICDDM, CDLDM, KDCDDM; VAE and UNet implementations; training and inference scripts; and distillation tools. If you'd like, I can help align benchmarks or extract evaluation results from the paper into your README or training logs.
-
-[1]: https://ieeexplore.ieee.org/document/10702557 "Knowledge Distillation Cross Domain Diffusion Model: A Generative ..."
 
 
 
