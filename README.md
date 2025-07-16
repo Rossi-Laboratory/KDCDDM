@@ -37,7 +37,7 @@
 
 This aligns exactly with your GitHub repo: modules for ICDDM, CDLDM, KDCDDM; VAE and UNet implementations; training and inference scripts; and distillation tools. If you'd like, I can help align benchmarks or extract evaluation results from the paper into your README or training logs.
 
-[1]: https://www.rawdatalibrary.net/ArticleDetails/1562889/knowledge-distillation-cross-domain-diffusion-model-a-generative-ai-approach-for-defect-pattern-segmentation?utm_source=chatgpt.com "Knowledge Distillation Cross Domain Diffusion Model: A Generative ..."
+[1]: https://ieeexplore.ieee.org/document/10702557 "Knowledge Distillation Cross Domain Diffusion Model: A Generative ..."
 
 
 
