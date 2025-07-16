@@ -1,0 +1,11 @@
+# configs/icddm.yaml
+model:
+  name: ICDDM
+  unet_channels: 1
+  num_timesteps: 1000
+  beta_schedule: cosine
+train:
+  lr: 0.0001
+  batch_size: 16
+  epochs: 100
+  ema_decay: 0.999
