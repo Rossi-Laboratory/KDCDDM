@@ -1,0 +1,12 @@
+# configs/cdldm.yaml
+model:
+  name: CDLDM
+  encoder_latent_dim: 128
+  decoder_latent_dim: 128
+  unet_channels: 128
+  num_timesteps: 1000
+train:
+  lr: 0.0001
+  batch_size: 16
+  epochs: 100
+  ema_decay: 0.999
