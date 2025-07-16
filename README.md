@@ -1,5 +1,5 @@
 ## <b>Project Page</b>
-[Paper]([https://arxiv.org/abs/2304.11354](https://ieeexplore.ieee.org/document/10702557) | [Project Page]() | [Vedio]() | [Code]()
+[Paper]([https://arxiv.org/abs/2304.11354](https://ieeexplore.ieee.org/document/10702557)) | [Project Page]() | [Vedio]() | [Code]()
 
 ## Chatbot
 Please click [here](https://kdcddm-chatbot.vercel.app/) to enter the chatbot. If you have any questions regarding the KDCDDM paper we've proposed, feel free to ask any questions.
