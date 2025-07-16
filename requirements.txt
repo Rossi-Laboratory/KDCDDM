@@ -1,0 +1,26 @@
+# Core ML libraries
+torch==1.13.1+cu117
+torchvision==0.14.1+cu117
+torchaudio==0.13.1
+--find-links https://download.pytorch.org/whl/torch_stable.html
+
+# Scientific computing
+numpy==1.23.5
+scipy==1.10.1
+matplotlib==3.6.3
+
+# Data handling and config
+PyYAML==6.0
+pandas==1.5.3
+tqdm==4.65.0
+
+# Image I/O and augmentation
+opencv-python==4.7.0.72
+Pillow==9.4.0
+
+# Optional: logging and visualization
+tensorboard==2.12.0
+wandb==0.15.10
+
+# Optional: utility
+einops==0.6.1
