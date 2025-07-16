@@ -1,4 +1,4 @@
-# 📄 *Knowledge Distillation Cross Domain Diffusion Model: A Generative AI Approach for Defect Pattern Segmentation*
+## 📄 *Knowledge Distillation Cross Domain Diffusion Model: A Generative AI Approach for Defect Pattern Segmentation*
 
 [Paper](https://ieeexplore.ieee.org/document/10702557) | [Project Page]() | [Vedio]() | [Code]()
 
